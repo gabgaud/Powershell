@@ -70,7 +70,7 @@ Write-Host "`nÉquipe $($ii + 1) :" -ForegroundColor yellow
             # être sélectionné.
             $csv = $csv | Where-Object { $_ -notcontains $Selection }
         
-        # Dans le cas ou la liste des candidats est épuisée, on sort de la boucle.
+        # Dans le cas ou la liste des candidats est épuisée, on sort de la boucle..
         } else {
             break;
         }
